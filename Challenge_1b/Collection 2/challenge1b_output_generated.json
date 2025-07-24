@@ -1,26 +1,112 @@
 {
-    "metadata": {
-        "input_documents": [
-            "Learn Acrobat - Create and Convert_1.pdf",
-            "Learn Acrobat - Create and Convert_2.pdf",
-            "Learn Acrobat - Edit_1.pdf",
-            "Learn Acrobat - Edit_2.pdf",
-            "Learn Acrobat - Export_1.pdf",
-            "Learn Acrobat - Export_2.pdf",
-            "Learn Acrobat - Fill and Sign.pdf",
-            "Learn Acrobat - Generative AI_1.pdf",
-            "Learn Acrobat - Generative AI_2.pdf",
-            "Learn Acrobat - Request e-signatures_1.pdf",
-            "Learn Acrobat - Request e-signatures_2.pdf",
-            "Learn Acrobat - Share_1.pdf",
-            "Learn Acrobat - Share_2.pdf",
-            "Test Your Acrobat Exporting Skills.pdf",
-            "The Ultimate PDF Sharing Checklist.pdf"
-        ],
-        "persona": "HR professional",
-        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
-        "processing_timestamp": "2025-07-24T13:48:14.483685"
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance."
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "section_title": "Convert Document Information",
+      "importance_rank": 1,
+      "page_number": 20
     },
-    "extracted_sections": [],
-    "subsection_analysis": []
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "section_title": "Add Document Information",
+      "importance_rank": 2,
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Change flat forms to fillable (Acrobat Pro)",
+      "importance_rank": 3,
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill and Sign PDF Forms",
+      "importance_rank": 4,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Types of PDF forms",
+      "importance_rank": 5,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill in PDF Forms",
+      "importance_rank": 6,
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Is the form fillable?",
+      "importance_rank": 7,
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill in interactive forms",
+      "importance_rank": 8,
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Auto-Complete forms (interactive forms",
+      "importance_rank": 9,
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Forms",
+      "importance_rank": 10,
+      "page_number": 10
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "save the file in\nthe same folder as the source file, using the same name but with a .pdf extension.\nConvert Document Information\nAdds document information from the Properties dialog box of the source file. This setting\noverrides the printer preferences and settings in the Advanced panel of the Adobe PDF\nSettings dialog box.\nNo",
+      "page_number": 20
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "iew Adobe PDF Results\nAutomatically starts Acrobat and displays the converted document immediately.\nAdd Document Information\nIncludes information such as the filename and date and time of creation.\nRely On System Fonts Only; Do Not Use Document Fonts\nDeselect this option to download fonts when creating the PDF. All your fo",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "t-\nselect to select multiple adjacent entries; Ctrl-select to select multiple\nnonadjacent entries.)\nChange flat forms to fillable (Acrobat Pro)\nYou can change a flat form to a fillable form by either using the Prepare Form tool or\nenabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool\nto fill in flat fo",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Fill and Sign PDF Forms\nYou can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types\nof PDF forms\nTypes of PDF forms\n• Interactive forms: These contain fields that you can select and fill in.",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "an easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types\nof PDF forms\nTypes of PDF forms\n• Interactive forms: These contain fields that you can select and fill in.\n• Flat forms: These do not have interactive fields. It could be a paper form or PDF that\nhasn’t been optimized for form fill",
+      "page_number": 2
+    }
+  ]
 }

@@ -1,105 +1,17 @@
 {
-    "metadata": {
-        "input_documents": [
-            "South of France - Cities.pdf",
-            "South of France - Cuisine.pdf",
-            "South of France - History.pdf",
-            "South of France - Restaurants and Hotels.pdf",
-            "South of France - Things to Do.pdf",
-            "South of France - Tips and Tricks.pdf",
-            "South of France - Traditions and Culture.pdf"
-        ],
-        "persona": "Travel Planner",
-        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
-        "processing_timestamp": "2025-07-24T13:47:44.433776"
-    },
-    "extracted_sections": [
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "Travel Tips",
-            "importance_rank": 1,
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "section_title": "Budget-Friendly Restaurants",
-            "importance_rank": 2,
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "section_title": "Budget-Friendly Hotels",
-            "importance_rank": 3,
-            "page_number": 8
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "Key Attractions",
-            "importance_rank": 4,
-            "page_number": 3
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "Key Attractions",
-            "importance_rank": 5,
-            "page_number": 5
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "Key Attractions",
-            "importance_rank": 6,
-            "page_number": 7
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "Key Attractions",
-            "importance_rank": 7,
-            "page_number": 9
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "Key Attractions",
-            "importance_rank": 8,
-            "page_number": 11
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "section_title": "Must-Visit Restaurants",
-            "importance_rank": 9,
-            "page_number": 4
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "section_title": "Restaurants",
-            "importance_rank": 10,
-            "page_number": 2
-        }
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
     ],
-    "subsection_analysis": [
-        {
-            "document": "South of France - Cities.pdf",
-            "refined_text": "areas. Learning a few basic French phrases can enhance your travel experience. • : While French is the oﬃcial language, English is widely spoken in tourist Language and smaller towns. buses, and flights. Renting a car is also a great option for exploring the countryside • : The region is well-connected by an extensive network of trains, Transportation crowds are smaller. to June) and fall (September to October) when the weather is pleasant, and the tourist • : The best time to visit the South of France is during the spring (April Best Time to Visit [H2:12.0] Travel Tips cuisine, wines, and vibrant cultural scene. mild winters, making it a year-round destination. The South of France is also famous for its the rugged Pyrenees mountains. The Mediterranean climate ensures warm summers and from the sun-drenched beaches of the French Riviera to the rolling vineyards of Provence and Occitanie, and parts of Nouvelle-Aquitaine. This area is renowned for its diverse landscapes, The South of France, or \"Le Midi,\" encompasses the regions of Provence-Alpes-Côte d'Azur, [H2:12.0] Overview of the Region",
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "refined_text": "spot for a casual meal. dishes at reasonable prices. The cozy atmosphere and friendly service make it a great • Le Petit Pontoise (Paris): A charming bistro oﬀering a variety of traditional French casual meal. at aﬀordable prices. The cozy atmosphere and friendly staﬀ make it a great spot for a • Le Bistrot Gourmand (Cannes): This bistro oﬀers a variety of traditional French dishes relaxed meal. reasonable prices. The outdoor seating and friendly service make it a great spot for a • Le Panier (Marseille): A casual eatery oﬀering a variety of Mediterranean dishes at dishes in a lively setting. The fresh oysters are a must-try. • Le Café de Turin (Nice): Known for its seafood, this café oﬀers a variety of aﬀordable The relaxed setting and fresh ingredients make it a popular choice. • Le Petit Nice (Marseille): A budget-friendly option oﬀering a variety of seafood dishes. casual meal. at aﬀordable prices. The cozy atmosphere and friendly staﬀ make it a great spot for a • Le Comptoir du Marché (Nice): This bistro oﬀers a variety of traditional French dishes generous servings make it a must-visit. hearty Provençal dishes at reasonable prices. The warm, welcoming environment and • Le Bistrot du Paradou (Paradou): A charming bistro oﬀering a daily fixed menu with portions make it a great spot for a casual meal. this family-owned restaurant is a local favorite. The lively atmosphere and hearty • Chez Etienne (Marseille): Known for its simple yet delicious pizzas and grilled meats, must due to its popularity and limited seating. menu changes with the seasons, ensuring fresh and flavorful dishes. Reservations are a • La Merenda (Nice): A small, cozy restaurant serving authentic Niçoise cuisine. The friendly service make it a favorite among locals and tourists alike. casual eatery oﬀers delicious and aﬀordable local dishes. The rustic ambiance and • Chez Pipo (Nice): Famous for its socca, a traditional Niçoise chickpea pancake, this [H2:12.0] Budget-Friendly Restaurants [H2:12.0] Restaurants",
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "refined_text": "artistic decor and central location make it a popular choice. Montpellier, oﬀering comfortable rooms and easy access to the city's attractions. The • Hotel de la Gare (Montpellier): A budget-friendly hotel located in the heart of a good option for travelers on a budget. a convenient location near the Old Port. The friendly staﬀ and aﬀordable rates make it • Hotel de la Plage (Marseille): A budget-friendly hotel oﬀering simple, clean rooms and make it a great choice for budget-conscious travelers. access to the beach and city center. The modern amenities and convenient location • Hotel de la Mer (Nice): A budget-friendly hotel oﬀering comfortable rooms and easy artistic decor and central location make it a popular choice. Montpellier, oﬀering comfortable rooms and easy access to the city's attractions. The • Hotel du Palais (Montpellier): A budget-friendly hotel located in the heart of a good option for travelers on a budget. a convenient location near the Old Port. The friendly staﬀ and aﬀordable rates make it • Hotel de la Paix (Marseille): A budget-friendly hotel oﬀering simple, clean rooms and make it a great choice for budget-conscious travelers. access to the beach and city center. The modern amenities and convenient location • Hotel Azur (Nice): A budget-friendly hotel oﬀering comfortable rooms and easy a good option for travelers on a budget. a convenient location near the Old Port. The friendly staﬀ and aﬀordable rates make it • Hotel Le Mistral (Marseille): A budget-friendly hotel oﬀering simple, clean rooms and artistic decor and central location make it a popular choice. Montpellier, oﬀering comfortable rooms and easy access to the city's attractions. The • Hotel des Arts (Montpellier): A budget-friendly hotel located in the heart of friendly service make it a pleasant stay. aﬀordable rates and beautiful views of the Mediterranean. The cozy rooms and • Hotel Le Saint Paul (Nice): A charming hotel located in a historic building, oﬀering convenient location make it a great choice for budget-conscious travelers. rooms and easy access to the beach and city center. The modern amenities and • Ibis Budget Nice Californie Lenval (Nice): A budget-friendly hotel oﬀering comfortable [H2:12.0] Budget-Friendly Hotels [H2:12.0] Hotels",
-            "page_number": 8
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "refined_text": "Marseille, which celebrates contemporary dance, theater, and music. Marseille's cuisine is venues. The city hosts several festivals throughout the year, including the Festival de Marseille is known for its vibrant arts scene, with numerous galleries, theaters, and music [H3:12.0] Cultural Highlights district. • : Explore the vibrant street art scene in the Cours Julien Street Art in Cours Julien local seafood culture. • : Visit the fish market at the Old Port to experience the Fish Market at the Old Port limestone cliﬀs and coves along the coast. • : Take a boat trip to the Calanques, a series of stunning Boat Trip to the Calanques [H3:12.0] Local Experiences and enjoy its vibrant culture. colorful buildings, and historic landmarks. It's a great place to explore the city's past • : The oldest district in Marseille, Le Panier is a maze of narrow streets, Le Panier exhibits and interactive displays. [H1:12.0] museum explores the cultural history of the Mediterranean region through a variety of • [H2:12.0] : This modern MuCEM (Museum of European and Mediterranean Civilizations) Built in the 19th century, it is a symbol of the city's maritime heritage. overlooking the city, oﬀers panoramic views of Marseille and the Mediterranean Sea. • : This iconic basilica, perched on a hill Basilica of Notre-Dame de la Garde markets. for over 2,600 years. Today, it is a lively area filled with cafes, restaurants, and • : The heart of Marseille, the Old Port has been a bustling harbor Old Port (Vieux-Port) [H3:12.0] Key Attractions North African, making it a melting pot of traditions and customs. centuries, Marseille has been influenced by various cultures, including Greek, Roman, and rich cultural heritage is reflected in its diverse architecture and vibrant atmosphere. Over the location on the Mediterranean coast made it a vital trading port throughout history. The city's Marseille, founded by Greek sailors around 600 BC, is the oldest city in France. Its strategic [H3:12.0] History [H2:12.0] Marseille: The Oldest City in France",
-            "page_number": 3
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "refined_text": "in the world. The Nice Jazz Festival, held in July, is another major event that attracts music theaters. The city hosts the Nice Carnival in February, one of the largest and oldest carnivals Nice is renowned for its vibrant cultural scene, with numerous museums, galleries, and [H3:12.0] Cultural Highlights park. • : Discover the botanical wonders at Parc Phoenix, a beautiful garden and Parc Phoenix museum. • : Explore the works of Marc Chagall at this dedicated Marc Chagall National Museum unique architectural gem in Nice. • : Visit the stunning Russian Orthodox Cathedral, a Russian Orthodox Cathedral [H3:12.0] Hidden Gems and drawings. in Nice, this museum features a comprehensive collection of his paintings, sculptures, • : Dedicated to the works of Henri Matisse, who spent much of his life Matisse Museum you can find fresh produce, flowers, and local delicacies. baroque churches, and bustling markets. Don't miss the Cours Saleya market, where • : The historic center of Nice is a labyrinth of narrow streets, Old Town (Vieux Nice) the 18th century. the Mediterranean. It was once the site of a medieval castle, which was destroyed in • : This hilltop park oﬀers panoramic views of Nice and Castle Hill (Colline du Château) Mediterranean and is lined with cafes and hotels. perfect for a leisurely stroll along the coast. It oﬀers stunning views of the • : This famous seaside promenade, built in the 19th century, is Promenade des Anglais [H3:12.0] Key Attractions development as a luxurious destination. became a favorite winter retreat for European aristocrats, which contributed to its Roman colony and has since evolved into a glamorous resort town. In the 19th century, Nice dates back to the ancient Greeks, who founded the city around 350 BC. Nice later became a Nice, located on the French Riviera, has been a popular destination for centuries. Its history [H3:12.0] History [H2:12.0] Nice: The Jewel of the French Riviera",
-            "page_number": 5
-        }
-    ]
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends."
+  },
+  "extracted_sections": [],
+  "subsection_analysis": []
 }

@@ -1,29 +1,19 @@
 {
-  "title": "File01",
+  "title": "Application form for grant of LTC advance",
   "outline": [
     {
-      "level": "H3",
-      "text": "PAY + SI + NPA",
+      "level": "H2",
+      "text": "Application form for grant of LTC advance",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "6. Home Town as recorded in the Service Book",
       "page": 1
     },
     {
       "level": "H3",
       "text": "Date",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "S.No Name Age Relationship",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Service",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Designation",
       "page": 1
     }
   ]
