@@ -1,0 +1,107 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-24T13:48:35.574762"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 1,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 2,
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Oatmeal",
+            "importance_rank": 3,
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 4,
+            "page_number": 6
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 5,
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 6,
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 7,
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 8,
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 9,
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients",
+            "importance_rank": 10,
+            "page_number": 10
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "• 1 teaspoon vanilla extract • 1/2 cup milk • 2 large eggs • 4 slices of bread [H2:12.0] Ingredients: [H2:12.0] French Toast • Serve immediately. • Cook, stirring gently, until the eggs are set but still soft. • Pour the egg mixture into the skillet. • Heat a non-stick skillet over medium heat and melt the butter. • In a bowl, whisk together eggs, milk, salt, and pepper. [H2:12.0] Instructions: • 1 tablespoon butter • [H3:12.0] Salt and pepper to taste • 1/4 cup milk • 4 large eggs [H2:12.0] Ingredients: [H2:12.0] Scrambled Eggs • Serve with syrup and your favorite toppings. • Cook until bubbles form on the surface, then flip and cook until golden brown. • Pour 1/4 cup of batter onto the skillet for each pancake. • Heat a non-stick skillet over medium heat and lightly grease it. • Pour the wet ingredients into the dry ingredients and stir until just combined. • In another bowl, combine buttermilk, egg, melted butter, and vanilla extract. • In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. [H2:12.0] Instructions: • 1 teaspoon vanilla extract • 2 tablespoons melted butter • 1 large egg • 1 cup buttermilk • 1/4 teaspoon salt • 1/2 teaspoon baking soda • 1 teaspoon baking powder • 2 tablespoons sugar • [H3:12.0] 1 cup all-purpose flour [H2:12.0] Ingredients: [H2:12.0] Pancakes",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "• Repeat layers if desired. • Drizzle with honey. • In a glass or bowl, layer Greek yogurt, granola, and fresh berries. [H2:12.0] Instructions: • [H3:12.0] Honey for drizzling • 1/2 cup fresh berries • 1/2 cup granola • 1 cup Greek yogurt [H2:12.0] Ingredients: [H2:12.0] Yogurt Parfait • Serve with your favorite toppings. • Remove from heat and let sit for a few minutes. • Add oats and salt, reduce heat to low, and simmer for 5 minutes, stirring occasionally. • In a saucepan, bring water or milk to a boil. [H2:12.0] Instructions: • [H3:12.0] Toppings: fresh fruit, nuts, honey, cinnamon • 1/4 teaspoon salt • 2 cups water or milk • 1 cup rolled oats [H2:12.0] Ingredients: [H2:12.0] Oatmeal • Serve with salsa. • Place the egg mixture in the center of the tortilla and roll it up. • Cook until the eggs are set and the vegetables are tender. • Add cheese, sausage or bacon, bell pepper, and onion to the eggs. • In a bowl, whisk the eggs and cook them in a skillet over medium heat. [H2:12.0] Instructions: • [H3:12.0] Salsa for serving • 1 large flour tortilla • 1/4 cup diced onion • 1/4 cup diced bell pepper • 1/4 cup cooked sausage or bacon",
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "• Repeat layers if desired. • Drizzle with honey. • In a glass or bowl, layer Greek yogurt, granola, and fresh berries. [H2:12.0] Instructions: • [H3:12.0] Honey for drizzling • 1/2 cup fresh berries • 1/2 cup granola • 1 cup Greek yogurt [H2:12.0] Ingredients: [H2:12.0] Yogurt Parfait • Serve with your favorite toppings. • Remove from heat and let sit for a few minutes. • Add oats and salt, reduce heat to low, and simmer for 5 minutes, stirring occasionally. • In a saucepan, bring water or milk to a boil. [H2:12.0] Instructions: • [H3:12.0] Toppings: fresh fruit, nuts, honey, cinnamon • 1/4 teaspoon salt • 2 cups water or milk • 1 cup rolled oats [H2:12.0] Ingredients: [H2:12.0] Oatmeal • Serve with salsa. • Place the egg mixture in the center of the tortilla and roll it up. • Cook until the eggs are set and the vegetables are tender. • Add cheese, sausage or bacon, bell pepper, and onion to the eggs. • In a bowl, whisk the eggs and cook them in a skillet over medium heat. [H2:12.0] Instructions: • [H3:12.0] Salsa for serving • 1 large flour tortilla • 1/4 cup diced onion • 1/4 cup diced bell pepper • 1/4 cup cooked sausage or bacon",
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "• Serve with salsa. • Divide the egg mixture between the tortillas. • Cook until the eggs are set and the vegetables are tender. • Add cheese, sausage or bacon, onions and bell pepper to the eggs. • In a bowl, whisk the eggs and cook them in a skillet over medium heat. [H2:12.0] Instructions: • [H3:12.0] Salsa for serving • 2 small flour tortillas • 1/4 cup diced onions • 1/4 cup diced bell pepper • 1/4 cup cooked sausage or bacon • 1/4 cup shredded cheese • 2 large eggs [H2:12.0] Ingredients: [H2:12.0] Breakfast Tacos • Let cool before slicing. • Bake for 60 minutes or until a toothpick inserted into the center comes out clean. • Pour the batter into a greased loaf pan. • Stir in baking soda, salt, and flour until just combined. • Add sugar, beaten egg, and vanilla extract, and mix well. • In a bowl, mix mashed bananas and melted butter. • Preheat oven to 350°F (175°C). [H2:12.0] Instructions: • [H3:12.0] 1 1/2 cups all-purpose flour • [H3:12.0] Pinch of salt • 1 teaspoon baking soda • 1 teaspoon vanilla extract • 1 large egg, beaten • 1/2 cup sugar • 1/3 cup melted butter • 3 ripe bananas, mashed [H2:12.0] Ingredients: [H2:12.0] Banana Bread • Serve with salsa. • Cook in the skillet until the tortilla is golden brown and crispy.",
+            "page_number": 6
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "• 1/2 cup diced onion • 1/2 cup diced bell pepper • 1/2 cup cooked sausage or bacon • 1 cup shredded cheese • 1 cup milk • 6 large eggs [H2:12.0] Ingredients: [H2:12.0] Breakfast Casserole • Let cool before serving. • Bake for 20-25 minutes or until a toothpick inserted into the center comes out clean. • Divide the batter evenly among a greased muﬃn tin. • Fold in the berries. • Pour the wet ingredients into the dry ingredients and stir until just combined. • In another bowl, combine milk, vegetable oil, egg, and vanilla extract. • In a bowl, mix flour, sugar, baking powder, and salt. • Preheat oven to 375°F (190°C). [H2:12.0] Instructions: • 1 cup fresh or frozen berries • 1 teaspoon vanilla extract • 1 large egg • 1/4 cup vegetable oil • 1 cup milk • 1/2 teaspoon salt • 1 tablespoon baking powder • 1/2 cup sugar • [H3:12.0] 2 cups all-purpose flour [H2:12.0] Ingredients: [H2:12.0] Muﬃns • Serve immediately. • Bake for 10-12 minutes or until the eggs are set and the cheese is melted. • Add sausage or bacon and bell pepper. • Crack the eggs onto the pizza. • Sprinkle mozzarella cheese on top. • Spread marinara sauce over the pizza crust. • Preheat oven to 425°F (220°C). [H2:12.0] Instructions:",
+            "page_number": 8
+        }
+    ]
+}

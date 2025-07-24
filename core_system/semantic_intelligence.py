@@ -124,12 +124,16 @@ class PersonaIntelligenceEngine:
         """Extract sections most relevant to the persona and task"""
         all_sections = []
         
+        logger.info(f"Extracting relevant sections for {len(documents)} documents")
+        
         for doc_name, doc_structure in documents.items():
+            logger.info(f"Processing {doc_name} with {len(doc_structure.outline)} outline items")
+            
             for item in doc_structure.outline:
                 # Calculate relevance score
                 relevance = self.analyze_persona_relevance(item.text, persona, task)
                 
-                if relevance > 0.1:  # Only include reasonably relevant sections
+                if relevance > 0.01:  # Lowered threshold from 0.1 to 0.01 for more inclusion
                     section = ExtractedSection(
                         document=doc_name,
                         section_title=item.text,
@@ -138,6 +142,9 @@ class PersonaIntelligenceEngine:
                         relevance_score=relevance
                     )
                     all_sections.append(section)
+                    logger.debug(f"Added section: {item.text} (relevance: {relevance:.3f})")
+        
+        logger.info(f"Found {len(all_sections)} relevant sections")
         
         # Sort by relevance score
         all_sections.sort(key=lambda x: x.relevance_score, reverse=True)
@@ -294,22 +301,25 @@ class PersonaIntelligenceEngine:
         return dict(concept_map)
     
     def _extract_key_concepts(self, text: str) -> List[str]:
-        """Extract key concepts from text using NLP"""
+        """Extract key concepts from text using simple text processing"""
         try:
-            # Use spaCy to extract named entities and noun phrases
-            doc = self.processor.nlp(text)
+            import re
             
             concepts = []
             
-            # Extract named entities
-            for ent in doc.ents:
-                if ent.label_ in ['ORG', 'GPE', 'PERSON', 'PRODUCT', 'EVENT']:
-                    concepts.append(ent.text.strip())
+            # Extract capitalized words/phrases (likely proper nouns)
+            capitalized_words = re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b', text)
+            concepts.extend(capitalized_words)
             
-            # Extract noun phrases
-            for chunk in doc.noun_chunks:
-                if 2 <= len(chunk.text.split()) <= 4:  # 2-4 word phrases
-                    concepts.append(chunk.text.strip())
+            # Extract common noun phrases (2-4 words)
+            words = text.split()
+            for i in range(len(words)):
+                for j in range(2, 5):  # 2-4 word phrases
+                    if i + j <= len(words):
+                        phrase = ' '.join(words[i:i+j])
+                        # Filter for meaningful phrases (contain at least one noun-like word)
+                        if any(word.lower() in ['restaurant', 'hotel', 'city', 'food', 'menu', 'recipe', 'place', 'location', 'activity', 'attraction'] for word in phrase.split()):
+                            concepts.append(phrase.strip())
             
             # Deduplicate and filter
             unique_concepts = list(set(concepts))

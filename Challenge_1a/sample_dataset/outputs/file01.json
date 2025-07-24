@@ -1,4 +1,30 @@
 {
-    "title": "Application form for grant of LTC advance  ",
-    "outline": []
+  "title": "File01",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "PAY + SI + NPA",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Date",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "S.No Name Age Relationship",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Service",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Designation",
+      "page": 1
+    }
+  ]
 }

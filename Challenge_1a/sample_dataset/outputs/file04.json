@@ -1,10 +1,30 @@
 {
-  "title": "Parsippany -Troy Hills STEM Pathways",
+  "title": "STEM-related extracurricular activity or",
   "outline": [
     {
       "level": "H1",
+      "text": "REGULAR PATHWAYDISTINCTION PATHWAY",
+      "page": 1
+    },
+    {
+      "level": "H3",
       "text": "PATHWAY OPTIONS",
-      "page": 0
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Goals",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Parsippany -Troy Hills STEM Pathways",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Science/Technology Class",
+      "page": 1
     }
   ]
 }
